@@ -8,6 +8,7 @@ with open('d1_data.txt') as file:
 
     total = 0
     for line in file:
+        print(line)
         digits = []
         for num in nums_re.findall(line):
             if num in nums:
